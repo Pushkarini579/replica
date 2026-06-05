@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# Rhetorica '26 - Literary Festival Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rhetorica '26 is the fifth edition of the annual literary festival of **Techno International New Town**, organized by **LITWITS**, the literary club of TINT. This project is a modern, visually immersive landing page designed to capture the essence of the festival through watercolor aesthetics and smooth, engaging animations.
 
-Currently, two official plugins are available:
+## 🎨 Design & Aesthetic
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The landing page features a unique "watercolor" theme, utilizing hand-drawn style illustrations and classic typography to create a sophisticated literary atmosphere.
 
-## React Compiler
+- **Headings:** Pirata One (Gothic/Literary style)
+- **Body Text:** Montserrat (Modern & Readable)
+- **Color Palette:** Rhetorica Gold (#c5a059), Cream (#f4ebd0), and Deep Black.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+- **Interactive Hero Section:** A striking full-screen entrance with scale-reveal animations.
+- **Scroll-Triggered Animations:** Smooth fade-ins and slide-ups using `framer-motion` that bring the page to life as you explore.
+- **Dynamic Countdown:** A real-time countdown timer leading up to the event on Jan 20th, 2026.
+- **Arched Event Gallery:** A curated list of events (Baak Bitorko, Khône Kotha, etc.) displayed within elegant architectural window frames.
+- **Collaborations Grid:** A staggered reveal section showcasing brand partnerships with grayscale-to-color hover effects.
+- **Integrated Location Guide:** An interactive Google Maps integration with a customized guide for visitors.
+- **Watercolor Footer:** A beautiful scenic illustration footer that anchors the page aesthetic.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Icons:** [FontAwesome](https://fontawesome.com/)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Prerequisites
+- Node.js (Latest LTS version recommended)
+- npm or yarn
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd rhetorica-26
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+
+- `src/components/`: Reusable React components for each section (Hero, About, Events, etc.).
+- `src/assets.ts`: Centralized management of remote image assets and URLs.
+- `src/index.css`: Global styles and Tailwind configuration.
+- `tailwind.config.js`: Custom theme definitions for colors and fonts.
