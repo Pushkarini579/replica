@@ -2,7 +2,7 @@
 
 Rhetorica '26 is the fifth edition of the annual literary festival of **Techno International New Town**, organized by **LITWITS**, the literary club of TINT. This project is a modern, visually immersive landing page designed to capture the essence of the festival through watercolor aesthetics and smooth, engaging animations.
 
-## 🎨 Design & Aesthetic
+##  Design & Aesthetic
 
 The landing page features a unique "watercolor" theme, utilizing hand-drawn style illustrations and classic typography to create a sophisticated literary atmosphere.
 
@@ -10,7 +10,7 @@ The landing page features a unique "watercolor" theme, utilizing hand-drawn styl
 - **Body Text:** Montserrat (Modern & Readable)
 - **Color Palette:** Rhetorica Gold (#c5a059), Cream (#f4ebd0), and Deep Black.
 
-## ✨ Key Features
+##  Key Features
 
 - **Interactive Hero Section:** A striking full-screen entrance with scale-reveal animations.
 - **Scroll-Triggered Animations:** Smooth fade-ins and slide-ups using `framer-motion` that bring the page to life as you explore.
@@ -20,7 +20,7 @@ The landing page features a unique "watercolor" theme, utilizing hand-drawn styl
 - **Integrated Location Guide:** An interactive Google Maps integration with a customized guide for visitors.
 - **Watercolor Footer:** A beautiful scenic illustration footer that anchors the page aesthetic.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** [React 19](https://react.dev/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
@@ -29,7 +29,7 @@ The landing page features a unique "watercolor" theme, utilizing hand-drawn styl
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
 - **Icons:** [FontAwesome](https://fontawesome.com/)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (Latest LTS version recommended)
@@ -58,7 +58,7 @@ The landing page features a unique "watercolor" theme, utilizing hand-drawn styl
    npm run build
    ```
 
-## 📂 Project Structure
+##  Project Structure
 
 - `src/components/`: Reusable React components for each section (Hero, About, Events, etc.).
 - `src/assets.ts`: Centralized management of remote image assets and URLs.
