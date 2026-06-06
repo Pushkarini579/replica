@@ -1,4 +1,5 @@
 # Rhetorica '26 - Literary Festival Landing Page
+Live Link :https://replica-five-pi.vercel.app/
 
 Rhetorica '26 is the fifth edition of the annual literary festival of **Techno International New Town**, organized by **LITWITS**, the literary club of TINT. This project is a modern, visually immersive landing page designed to capture the essence of the festival through watercolor aesthetics and smooth, engaging animations.
 
